@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>OpenAI.API</Title>
+    <Description>C# .NET 6 wrapper library to use with OpenAI's GPT-3 API.</Description>
+    <PackageIcon>C-Sharp-OpenAPI.png</PackageIcon>
+    <PackageLicenseFile>MIT-LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>Open AI; GPT-3; C-Sharp; .Net 6</PackageTags>
+    <PackageReleaseNotes>Beta release</PackageReleaseNotes>
+    <Copyright>Feel free to use!</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\MIT-LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\..\Downloads\C-Sharp-OpenAPI.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
